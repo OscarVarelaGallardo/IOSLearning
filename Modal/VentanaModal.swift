@@ -11,12 +11,13 @@ import SwiftUI
 struct VentanaModal:View {
     
     @Environment(\.presentationMode) var closeModal
+    var texto : String;
+    
     var body: some View{
-        
             ZStack{
                     Color.orange.edgesIgnoringSafeArea(.all)
                     VStack{
-                    Text("Hello, world!")
+                    Text(texto)
                         .padding()
                         .font(.title).foregroundColor(.white).bold()
                         Button("Cerrar"){

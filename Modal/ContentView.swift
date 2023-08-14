@@ -11,10 +11,14 @@ import CoreData
 struct ContentView: View {
     
     @State private var show = false ;
+    @State private var texto = "";
     
     var body: some View {
         NavigationView {
+            
             VStack{
+                TextField("Ingresa un texto", text: $texto)
+                
                 NavigationLink(destination: SegundaVista()){
                     Text("Segunda vista")
                 }
@@ -25,8 +29,8 @@ struct ContentView: View {
                     show = true
                 }
                 .sheet(isPresented: $show){
-                    VentanaModal()
-                    
+                    VentanaModal(texto: texto)
+                    //ios 15
                 }.navigationTitle("Navegación")
                     .toolbar{
                         HStack{
@@ -39,8 +43,21 @@ struct ContentView: View {
                         }
                         
                     }
+                //ios 14
+            }.navigationBarTitle("Navegación")
+                .navigationBarItems(leading: <#T##View#>){
+                    HStack{
+                        NavigationLink(destination: SegundaVista()){
+                            Image(systemName: "plus")
+                        }
+                        NavigationLink(destination: TerceraVista()){
+                            Image(systemName: "camera")
+                        }
+                    }
+                    
+                }
                 
-            }
+            }.padding(.all)
             
         }
     }

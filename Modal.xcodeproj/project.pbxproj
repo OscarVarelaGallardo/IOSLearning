@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		92B42E2B2A8AACF500419869 /* SegundaVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B42E2A2A8AACF500419869 /* SegundaVista.swift */; };
 		92B42E2D2A8AB2FA00419869 /* TerceraVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B42E2C2A8AB2FA00419869 /* TerceraVista.swift */; };
+		92B42E2F2A8ABCAF00419869 /* TabViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B42E2E2A8ABCAF00419869 /* TabViewMain.swift */; };
 		92EBA6D72A8AA2EF00DFE7D7 /* ModalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EBA6D62A8AA2EF00DFE7D7 /* ModalApp.swift */; };
 		92EBA6D92A8AA2EF00DFE7D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EBA6D82A8AA2EF00DFE7D7 /* ContentView.swift */; };
 		92EBA6DB2A8AA2F000DFE7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92EBA6DA2A8AA2F000DFE7D7 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		92B42E2A2A8AACF500419869 /* SegundaVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaVista.swift; sourceTree = "<group>"; };
 		92B42E2C2A8AB2FA00419869 /* TerceraVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerceraVista.swift; sourceTree = "<group>"; };
+		92B42E2E2A8ABCAF00419869 /* TabViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewMain.swift; sourceTree = "<group>"; };
 		92EBA6D32A8AA2EF00DFE7D7 /* Modal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EBA6D62A8AA2EF00DFE7D7 /* ModalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalApp.swift; sourceTree = "<group>"; };
 		92EBA6D82A8AA2EF00DFE7D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				92EBA6E92A8AA49300DFE7D7 /* VentanaModal.swift */,
 				92B42E2A2A8AACF500419869 /* SegundaVista.swift */,
 				92B42E2C2A8AB2FA00419869 /* TerceraVista.swift */,
+				92B42E2E2A8ABCAF00419869 /* TabViewMain.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				92EBA6E02A8AA2F000DFE7D7 /* Persistence.swift in Sources */,
 				92EBA6D92A8AA2EF00DFE7D7 /* ContentView.swift in Sources */,
 				92B42E2D2A8AB2FA00419869 /* TerceraVista.swift in Sources */,
+				92B42E2F2A8ABCAF00419869 /* TabViewMain.swift in Sources */,
 				92EBA6EA2A8AA49300DFE7D7 /* VentanaModal.swift in Sources */,
 				92EBA6D72A8AA2EF00DFE7D7 /* ModalApp.swift in Sources */,
 				92EBA6E32A8AA2F000DFE7D7 /* Modal.xcdatamodeld in Sources */,

@@ -2,9 +2,11 @@
 import Foundation
 import SwiftUI
 
+
 struct SegundaVista: View{
+
     var body:some View{
-        Text("Segunda Vista#2")
+        Text("Segunda Vista")
             .navigationTitle("Segunda Vista Up")
     }
 }
